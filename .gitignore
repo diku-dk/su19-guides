@@ -322,4 +322,17 @@ TSWLatexianTemp*
 # expex forward references with \gathertags
 *-tags.tex
 
+#SU18 stuff
+.idea/
+DIKUArcade/
+.DS_Store
+obj/
+packages/
+packages/OpenTK2.0.0/
+packages/OpenTK.3.0.0-pre/
+!packages/NUnit.3.5.0/
+.gitmodules
+
 # End of https://www.gitignore.io/api/vim,emacs,latex
+
+
