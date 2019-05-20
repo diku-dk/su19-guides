@@ -2,7 +2,7 @@
 
 This guide will provide some advide on how to format and structure your technical reports.
 
-The [su18](https://github.com/diku-dk/su18-guides/raw/v1.4/files/su18.sty)
+The [su19](https://github.com/diku-dk/su19-guides/blob/master/files/su19.sty)
 LaTeX package provides a template for your LaTeX reports in Software Development.
 
 To use it, you will have to install [Python 3](https://www.python.org/download/releases/3.0/),
@@ -18,7 +18,7 @@ Then, you can start with a `master.tex` as follows:
 ```
 \documentclass[a4paper]{article}
 
-\usepackage{su18}
+\usepackage{su19}
 
 \header{%
   assignment={Exercise 1: Introduction to C#},%
@@ -37,7 +37,7 @@ Then, you can start with a `master.tex` as follows:
 If you are writing in Danish, you should instead write:
 
 ```
-\usepackage[danish]{su18}
+\usepackage[danish]{su19}
 ```
 
 When including code snippets we recommend using the `minted` package. It is a
@@ -52,7 +52,7 @@ use our configuration, including code is as easy as the following example:
 ```
 \documentclass[a4paper]{article}
 
-\usepackage{su18}
+\usepackage{su19}
 
 \begin{document}
 
@@ -91,7 +91,7 @@ The technical report can be compiled in a number of different ways:
 $ pdflatex -shell-escape master.tex
 ```
 
-That is, provided you've placed `su18.sty` either in the same
+That is, provided you've placed `su19.sty` either in the same
 directory, or in your `~/texmf/tex/latex/` directory.
 
 #### Using `latexrun`
@@ -120,7 +120,7 @@ P.S This setup can be downloaded as a .zipped folder here:
 
 ### Final notes
 
-If `su18.sty` or any other files from this repository are changed during the course,
+If `su19.sty` or any other files from this repository are changed during the course,
 the changes will be announced on Absalon as well as on this repository. We will
-insure backwards compatibility, so using a new version will not brake your
+ensure backwards compatibility, so using a new version will not break your
 existing LaTeX-files.
